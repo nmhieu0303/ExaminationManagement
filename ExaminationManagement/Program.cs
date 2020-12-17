@@ -16,7 +16,7 @@ namespace ExaminationManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmExam());
+            Application.Run(new frmStudent());
         }
     }
 }

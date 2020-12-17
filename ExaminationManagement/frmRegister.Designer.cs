@@ -51,7 +51,7 @@ namespace ExaminationManagement
             this.cmbClass = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtClass = new System.Windows.Forms.Label();
             this.dgvListClass = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.txtUsename = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtId = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtPass = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -400,33 +400,33 @@ namespace ExaminationManagement
             this.dgvListClass.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvListClass.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
-            // txtUsename
+            // txtId
             // 
-            this.txtUsename.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(50)))), ((int)(((byte)(101)))));
-            this.txtUsename.BorderRadius = 5;
-            this.txtUsename.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtUsename.DefaultText = "";
-            this.txtUsename.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtUsename.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtUsename.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtUsename.DisabledState.Parent = this.txtUsename;
-            this.txtUsename.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtUsename.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(41)))), ((int)(((byte)(86)))));
-            this.txtUsename.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.txtUsename.FocusedState.FillColor = System.Drawing.Color.White;
-            this.txtUsename.FocusedState.ForeColor = System.Drawing.Color.Black;
-            this.txtUsename.FocusedState.Parent = this.txtUsename;
-            this.txtUsename.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtUsename.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUsename.HoverState.Parent = this.txtUsename;
-            this.txtUsename.Location = new System.Drawing.Point(422, 156);
-            this.txtUsename.Name = "txtUsename";
-            this.txtUsename.PasswordChar = '\0';
-            this.txtUsename.PlaceholderText = "Type username";
-            this.txtUsename.SelectedText = "";
-            this.txtUsename.ShadowDecoration.Parent = this.txtUsename;
-            this.txtUsename.Size = new System.Drawing.Size(331, 46);
-            this.txtUsename.TabIndex = 15;
+            this.txtId.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(50)))), ((int)(((byte)(101)))));
+            this.txtId.BorderRadius = 5;
+            this.txtId.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtId.DefaultText = "";
+            this.txtId.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtId.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtId.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtId.DisabledState.Parent = this.txtId;
+            this.txtId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtId.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(41)))), ((int)(((byte)(86)))));
+            this.txtId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.txtId.FocusedState.FillColor = System.Drawing.Color.White;
+            this.txtId.FocusedState.ForeColor = System.Drawing.Color.Black;
+            this.txtId.FocusedState.Parent = this.txtId;
+            this.txtId.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtId.HoverState.Parent = this.txtId;
+            this.txtId.Location = new System.Drawing.Point(422, 156);
+            this.txtId.Name = "txtId";
+            this.txtId.PasswordChar = '\0';
+            this.txtId.PlaceholderText = "Type ID";
+            this.txtId.SelectedText = "";
+            this.txtId.ShadowDecoration.Parent = this.txtId;
+            this.txtId.Size = new System.Drawing.Size(331, 46);
+            this.txtId.TabIndex = 15;
             // 
             // txtPass
             // 
@@ -474,9 +474,9 @@ namespace ExaminationManagement
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
             this.label2.Location = new System.Drawing.Point(424, 130);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 20);
+            this.label2.Size = new System.Drawing.Size(24, 20);
             this.label2.TabIndex = 18;
-            this.label2.Text = "Username";
+            this.label2.Text = "ID";
             // 
             // elipBtnSignUp
             // 
@@ -518,7 +518,7 @@ namespace ExaminationManagement
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPass);
-            this.Controls.Add(this.txtUsename);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -552,7 +552,7 @@ namespace ExaminationManagement
         private Guna.UI2.WinForms.Guna2ComboBox cmbClass;
         private System.Windows.Forms.Label txtClass;
         private Guna.UI2.WinForms.Guna2DataGridView dgvListClass;
-        private Guna.UI2.WinForms.Guna2TextBox txtUsename;
+        private Guna.UI2.WinForms.Guna2TextBox txtId;
         private Guna.UI2.WinForms.Guna2TextBox txtPass;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
