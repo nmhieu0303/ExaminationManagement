@@ -16,10 +16,7 @@ namespace ExaminationManagement
         private void showControlUpadteInfo()
         {
             txtFullname.Show();
-            txtIdStudent.Show();
-            txtIdStudent.Show();
             dtmDOB.Show();
-            cmbClass.Show();
             btnUpdate.Hide();
         }
 
@@ -27,10 +24,7 @@ namespace ExaminationManagement
         private void hideControlUpadteInfo()
         {
             txtFullname.Hide();
-            txtIdStudent.Hide();
-            txtIdStudent.Hide();
             dtmDOB.Hide();
-            cmbClass.Hide();
             btnUpdate.Show();
         }
         private void showControlChangePass()

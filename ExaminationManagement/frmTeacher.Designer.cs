@@ -30,34 +30,31 @@ namespace ExaminationManagement
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTeacher));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabMain = new System.Windows.Forms.TabControl();
             this.tabInfo = new System.Windows.Forms.TabPage();
             this.pnlInfo = new Guna.UI2.WinForms.Guna2Panel();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.picAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnUpdateAvatar = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.cmbClass = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtPass = new Guna.UI2.WinForms.Guna2TextBox();
             this.dtmDOB = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.lblPass = new System.Windows.Forms.Label();
             this.btnUpdate = new Guna.UI2.WinForms.Guna2GradientButton();
             this.lblPassCf = new System.Windows.Forms.Label();
-            this.txtIdStudent = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtFullname = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.lblDob = new System.Windows.Forms.Label();
             this.txtPassCf = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lblClass = new System.Windows.Forms.Label();
-            this.lblIdStudent = new System.Windows.Forms.Label();
+            this.lblSubject = new System.Windows.Forms.Label();
             this.lblFullname = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -67,6 +64,7 @@ namespace ExaminationManagement
             this.btnSavePass = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSaveInfo = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSaveAvatar = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.lblUserId = new System.Windows.Forms.Label();
             this.lblTitleInfo = new System.Windows.Forms.Label();
             this.pnlFooter = new Guna.UI2.WinForms.Guna2Panel();
             this.tabLearning = new System.Windows.Forms.TabPage();
@@ -124,7 +122,7 @@ namespace ExaminationManagement
             this.tabMain.Name = "tabMain";
             this.tabMain.SelectedIndex = 0;
             this.tabMain.Size = new System.Drawing.Size(1367, 758);
-            this.tabMain.TabIndex = 2;
+            this.tabMain.TabIndex = 3;
             // 
             // tabInfo
             // 
@@ -144,19 +142,16 @@ namespace ExaminationManagement
             this.pnlInfo.Controls.Add(this.btnLogin);
             this.pnlInfo.Controls.Add(this.picAvatar);
             this.pnlInfo.Controls.Add(this.btnUpdateAvatar);
-            this.pnlInfo.Controls.Add(this.cmbClass);
             this.pnlInfo.Controls.Add(this.txtPass);
             this.pnlInfo.Controls.Add(this.dtmDOB);
             this.pnlInfo.Controls.Add(this.lblPass);
             this.pnlInfo.Controls.Add(this.btnUpdate);
             this.pnlInfo.Controls.Add(this.lblPassCf);
-            this.pnlInfo.Controls.Add(this.txtIdStudent);
             this.pnlInfo.Controls.Add(this.txtFullname);
             this.pnlInfo.Controls.Add(this.label4);
             this.pnlInfo.Controls.Add(this.lblDob);
             this.pnlInfo.Controls.Add(this.txtPassCf);
-            this.pnlInfo.Controls.Add(this.lblClass);
-            this.pnlInfo.Controls.Add(this.lblIdStudent);
+            this.pnlInfo.Controls.Add(this.lblSubject);
             this.pnlInfo.Controls.Add(this.lblFullname);
             this.pnlInfo.Controls.Add(this.label5);
             this.pnlInfo.Controls.Add(this.label6);
@@ -166,12 +161,13 @@ namespace ExaminationManagement
             this.pnlInfo.Controls.Add(this.btnSavePass);
             this.pnlInfo.Controls.Add(this.btnSaveInfo);
             this.pnlInfo.Controls.Add(this.btnSaveAvatar);
+            this.pnlInfo.Controls.Add(this.lblUserId);
             this.pnlInfo.FillColor = System.Drawing.Color.Transparent;
-            this.pnlInfo.Location = new System.Drawing.Point(325, 58);
+            this.pnlInfo.Location = new System.Drawing.Point(299, 63);
             this.pnlInfo.Name = "pnlInfo";
             this.pnlInfo.ShadowDecoration.Parent = this.pnlInfo;
             this.pnlInfo.Size = new System.Drawing.Size(761, 564);
-            this.pnlInfo.TabIndex = 149;
+            this.pnlInfo.TabIndex = 152;
             // 
             // btnLogin
             // 
@@ -197,7 +193,7 @@ namespace ExaminationManagement
             // picAvatar
             // 
             this.picAvatar.Image = ((System.Drawing.Image)(resources.GetObject("picAvatar.Image")));
-            this.picAvatar.Location = new System.Drawing.Point(288, 14);
+            this.picAvatar.Location = new System.Drawing.Point(307, 14);
             this.picAvatar.Name = "picAvatar";
             this.picAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.picAvatar.ShadowDecoration.Parent = this.picAvatar;
@@ -225,35 +221,13 @@ namespace ExaminationManagement
             this.btnUpdateAvatar.HoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateAvatar.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnUpdateAvatar.HoverState.Parent = this.btnUpdateAvatar;
-            this.btnUpdateAvatar.Location = new System.Drawing.Point(498, 502);
+            this.btnUpdateAvatar.Location = new System.Drawing.Point(517, 502);
             this.btnUpdateAvatar.Name = "btnUpdateAvatar";
             this.btnUpdateAvatar.ShadowDecoration.Parent = this.btnUpdateAvatar;
             this.btnUpdateAvatar.Size = new System.Drawing.Size(168, 54);
             this.btnUpdateAvatar.TabIndex = 153;
             this.btnUpdateAvatar.Text = "Update avatar";
-            // 
-            // cmbClass
-            // 
-            this.cmbClass.Animated = true;
-            this.cmbClass.BackColor = System.Drawing.Color.Transparent;
-            this.cmbClass.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(50)))), ((int)(((byte)(101)))));
-            this.cmbClass.BorderRadius = 5;
-            this.cmbClass.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbClass.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbClass.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(41)))), ((int)(((byte)(86)))));
-            this.cmbClass.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbClass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbClass.FocusedState.Parent = this.cmbClass;
-            this.cmbClass.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbClass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cmbClass.HoverState.Parent = this.cmbClass;
-            this.cmbClass.ItemHeight = 30;
-            this.cmbClass.ItemsAppearance.Parent = this.cmbClass;
-            this.cmbClass.Location = new System.Drawing.Point(328, 254);
-            this.cmbClass.Name = "cmbClass";
-            this.cmbClass.ShadowDecoration.Parent = this.cmbClass;
-            this.cmbClass.Size = new System.Drawing.Size(280, 36);
-            this.cmbClass.TabIndex = 140;
+            this.btnUpdateAvatar.Click += new System.EventHandler(this.btnUpdateAvatar_Click);
             // 
             // txtPass
             // 
@@ -274,7 +248,7 @@ namespace ExaminationManagement
             this.txtPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPass.HoverState.Parent = this.txtPass;
-            this.txtPass.Location = new System.Drawing.Point(328, 376);
+            this.txtPass.Location = new System.Drawing.Point(347, 376);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.PlaceholderText = "Type password";
@@ -295,7 +269,7 @@ namespace ExaminationManagement
             this.dtmDOB.ForeColor = System.Drawing.Color.White;
             this.dtmDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtmDOB.HoverState.Parent = this.dtmDOB;
-            this.dtmDOB.Location = new System.Drawing.Point(328, 312);
+            this.dtmDOB.Location = new System.Drawing.Point(347, 312);
             this.dtmDOB.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtmDOB.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtmDOB.Name = "dtmDOB";
@@ -309,7 +283,7 @@ namespace ExaminationManagement
             this.lblPass.AutoSize = true;
             this.lblPass.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPass.ForeColor = System.Drawing.Color.White;
-            this.lblPass.Location = new System.Drawing.Point(325, 377);
+            this.lblPass.Location = new System.Drawing.Point(344, 377);
             this.lblPass.Name = "lblPass";
             this.lblPass.Size = new System.Drawing.Size(105, 32);
             this.lblPass.TabIndex = 139;
@@ -333,51 +307,24 @@ namespace ExaminationManagement
             this.btnUpdate.HoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.HoverState.Parent = this.btnUpdate;
-            this.btnUpdate.Location = new System.Drawing.Point(279, 503);
+            this.btnUpdate.Location = new System.Drawing.Point(298, 503);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.ShadowDecoration.Parent = this.btnUpdate;
             this.btnUpdate.Size = new System.Drawing.Size(168, 54);
             this.btnUpdate.TabIndex = 146;
             this.btnUpdate.Text = "Update Info";
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // lblPassCf
             // 
             this.lblPassCf.AutoSize = true;
             this.lblPassCf.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassCf.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.lblPassCf.Location = new System.Drawing.Point(111, 438);
+            this.lblPassCf.Location = new System.Drawing.Point(130, 445);
             this.lblPassCf.Name = "lblPassCf";
             this.lblPassCf.Size = new System.Drawing.Size(219, 32);
             this.lblPassCf.TabIndex = 142;
             this.lblPassCf.Text = "Password comfirm:";
-            // 
-            // txtIdStudent
-            // 
-            this.txtIdStudent.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(50)))), ((int)(((byte)(101)))));
-            this.txtIdStudent.BorderRadius = 5;
-            this.txtIdStudent.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtIdStudent.DefaultText = "";
-            this.txtIdStudent.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtIdStudent.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtIdStudent.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtIdStudent.DisabledState.Parent = this.txtIdStudent;
-            this.txtIdStudent.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtIdStudent.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(41)))), ((int)(((byte)(86)))));
-            this.txtIdStudent.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.txtIdStudent.FocusedState.FillColor = System.Drawing.Color.White;
-            this.txtIdStudent.FocusedState.ForeColor = System.Drawing.Color.Black;
-            this.txtIdStudent.FocusedState.Parent = this.txtIdStudent;
-            this.txtIdStudent.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtIdStudent.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtIdStudent.HoverState.Parent = this.txtIdStudent;
-            this.txtIdStudent.Location = new System.Drawing.Point(331, 133);
-            this.txtIdStudent.Name = "txtIdStudent";
-            this.txtIdStudent.PasswordChar = '\0';
-            this.txtIdStudent.PlaceholderText = "Type your student id";
-            this.txtIdStudent.SelectedText = "";
-            this.txtIdStudent.ShadowDecoration.Parent = this.txtIdStudent;
-            this.txtIdStudent.Size = new System.Drawing.Size(277, 46);
-            this.txtIdStudent.TabIndex = 132;
             // 
             // txtFullname
             // 
@@ -398,7 +345,7 @@ namespace ExaminationManagement
             this.txtFullname.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtFullname.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtFullname.HoverState.Parent = this.txtFullname;
-            this.txtFullname.Location = new System.Drawing.Point(331, 194);
+            this.txtFullname.Location = new System.Drawing.Point(350, 194);
             this.txtFullname.Name = "txtFullname";
             this.txtFullname.PasswordChar = '\0';
             this.txtFullname.PlaceholderText = "Type your full name";
@@ -412,7 +359,7 @@ namespace ExaminationManagement
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label4.Location = new System.Drawing.Point(208, 376);
+            this.label4.Location = new System.Drawing.Point(227, 376);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(122, 32);
             this.label4.TabIndex = 138;
@@ -423,7 +370,7 @@ namespace ExaminationManagement
             this.lblDob.AutoSize = true;
             this.lblDob.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDob.ForeColor = System.Drawing.Color.White;
-            this.lblDob.Location = new System.Drawing.Point(325, 313);
+            this.lblDob.Location = new System.Drawing.Point(344, 313);
             this.lblDob.Name = "lblDob";
             this.lblDob.Size = new System.Drawing.Size(136, 32);
             this.lblDob.TabIndex = 131;
@@ -448,7 +395,7 @@ namespace ExaminationManagement
             this.txtPassCf.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPassCf.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassCf.HoverState.Parent = this.txtPassCf;
-            this.txtPassCf.Location = new System.Drawing.Point(330, 438);
+            this.txtPassCf.Location = new System.Drawing.Point(349, 438);
             this.txtPassCf.Name = "txtPassCf";
             this.txtPassCf.PasswordChar = '*';
             this.txtPassCf.PlaceholderText = "Type password confirm";
@@ -457,34 +404,23 @@ namespace ExaminationManagement
             this.txtPassCf.Size = new System.Drawing.Size(280, 46);
             this.txtPassCf.TabIndex = 141;
             // 
-            // lblClass
+            // lblSubject
             // 
-            this.lblClass.AutoSize = true;
-            this.lblClass.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblClass.ForeColor = System.Drawing.Color.White;
-            this.lblClass.Location = new System.Drawing.Point(325, 254);
-            this.lblClass.Name = "lblClass";
-            this.lblClass.Size = new System.Drawing.Size(54, 32);
-            this.lblClass.TabIndex = 129;
-            this.lblClass.Text = "10A";
-            // 
-            // lblIdStudent
-            // 
-            this.lblIdStudent.AutoSize = true;
-            this.lblIdStudent.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIdStudent.ForeColor = System.Drawing.Color.White;
-            this.lblIdStudent.Location = new System.Drawing.Point(325, 134);
-            this.lblIdStudent.Name = "lblIdStudent";
-            this.lblIdStudent.Size = new System.Drawing.Size(107, 32);
-            this.lblIdStudent.TabIndex = 136;
-            this.lblIdStudent.Text = "18181818";
+            this.lblSubject.AutoSize = true;
+            this.lblSubject.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubject.ForeColor = System.Drawing.Color.White;
+            this.lblSubject.Location = new System.Drawing.Point(344, 254);
+            this.lblSubject.Name = "lblSubject";
+            this.lblSubject.Size = new System.Drawing.Size(73, 32);
+            this.lblSubject.TabIndex = 129;
+            this.lblSubject.Text = "Math";
             // 
             // lblFullname
             // 
             this.lblFullname.AutoSize = true;
             this.lblFullname.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFullname.ForeColor = System.Drawing.Color.White;
-            this.lblFullname.Location = new System.Drawing.Point(325, 195);
+            this.lblFullname.Location = new System.Drawing.Point(344, 195);
             this.lblFullname.Name = "lblFullname";
             this.lblFullname.Size = new System.Drawing.Size(170, 32);
             this.lblFullname.TabIndex = 128;
@@ -495,7 +431,7 @@ namespace ExaminationManagement
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label5.Location = new System.Drawing.Point(255, 313);
+            this.label5.Location = new System.Drawing.Point(274, 313);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(75, 32);
             this.label5.TabIndex = 127;
@@ -506,18 +442,18 @@ namespace ExaminationManagement
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label6.Location = new System.Drawing.Point(193, 134);
+            this.label6.Location = new System.Drawing.Point(248, 134);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(137, 32);
+            this.label6.Size = new System.Drawing.Size(101, 32);
             this.label6.TabIndex = 135;
-            this.label6.Text = "Student ID:";
+            this.label6.Text = "User ID:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label2.Location = new System.Drawing.Point(199, 195);
+            this.label2.Location = new System.Drawing.Point(218, 195);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(131, 32);
             this.label2.TabIndex = 123;
@@ -528,11 +464,11 @@ namespace ExaminationManagement
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label1.Location = new System.Drawing.Point(255, 254);
+            this.label1.Location = new System.Drawing.Point(248, 254);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 32);
+            this.label1.Size = new System.Drawing.Size(101, 32);
             this.label1.TabIndex = 122;
-            this.label1.Text = "Class:";
+            this.label1.Text = "Subject:";
             // 
             // btnChangePass
             // 
@@ -552,12 +488,13 @@ namespace ExaminationManagement
             this.btnChangePass.HoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangePass.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnChangePass.HoverState.Parent = this.btnChangePass;
-            this.btnChangePass.Location = new System.Drawing.Point(67, 503);
+            this.btnChangePass.Location = new System.Drawing.Point(86, 503);
             this.btnChangePass.Name = "btnChangePass";
             this.btnChangePass.ShadowDecoration.Parent = this.btnChangePass;
             this.btnChangePass.Size = new System.Drawing.Size(168, 54);
             this.btnChangePass.TabIndex = 147;
             this.btnChangePass.Text = "Change password";
+            this.btnChangePass.Click += new System.EventHandler(this.btnChangePass_Click);
             // 
             // btnSavePass
             // 
@@ -577,12 +514,13 @@ namespace ExaminationManagement
             this.btnSavePass.HoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSavePass.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnSavePass.HoverState.Parent = this.btnSavePass;
-            this.btnSavePass.Location = new System.Drawing.Point(67, 503);
+            this.btnSavePass.Location = new System.Drawing.Point(86, 503);
             this.btnSavePass.Name = "btnSavePass";
             this.btnSavePass.ShadowDecoration.Parent = this.btnSavePass;
             this.btnSavePass.Size = new System.Drawing.Size(168, 54);
             this.btnSavePass.TabIndex = 149;
             this.btnSavePass.Text = "Save";
+            this.btnSavePass.Click += new System.EventHandler(this.btnSavePass_Click);
             // 
             // btnSaveInfo
             // 
@@ -602,12 +540,13 @@ namespace ExaminationManagement
             this.btnSaveInfo.HoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaveInfo.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnSaveInfo.HoverState.Parent = this.btnSaveInfo;
-            this.btnSaveInfo.Location = new System.Drawing.Point(279, 503);
+            this.btnSaveInfo.Location = new System.Drawing.Point(298, 503);
             this.btnSaveInfo.Name = "btnSaveInfo";
             this.btnSaveInfo.ShadowDecoration.Parent = this.btnSaveInfo;
             this.btnSaveInfo.Size = new System.Drawing.Size(168, 54);
             this.btnSaveInfo.TabIndex = 148;
             this.btnSaveInfo.Text = "Save";
+            this.btnSaveInfo.Click += new System.EventHandler(this.btnSaveInfo_Click);
             // 
             // btnSaveAvatar
             // 
@@ -627,12 +566,24 @@ namespace ExaminationManagement
             this.btnSaveAvatar.HoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaveAvatar.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnSaveAvatar.HoverState.Parent = this.btnSaveAvatar;
-            this.btnSaveAvatar.Location = new System.Drawing.Point(498, 503);
+            this.btnSaveAvatar.Location = new System.Drawing.Point(517, 503);
             this.btnSaveAvatar.Name = "btnSaveAvatar";
             this.btnSaveAvatar.ShadowDecoration.Parent = this.btnSaveAvatar;
             this.btnSaveAvatar.Size = new System.Drawing.Size(168, 54);
             this.btnSaveAvatar.TabIndex = 154;
             this.btnSaveAvatar.Text = "Save";
+            this.btnSaveAvatar.Click += new System.EventHandler(this.btnSaveAvatar_Click);
+            // 
+            // lblUserId
+            // 
+            this.lblUserId.AutoSize = true;
+            this.lblUserId.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserId.ForeColor = System.Drawing.Color.White;
+            this.lblUserId.Location = new System.Drawing.Point(344, 134);
+            this.lblUserId.Name = "lblUserId";
+            this.lblUserId.Size = new System.Drawing.Size(107, 32);
+            this.lblUserId.TabIndex = 136;
+            this.lblUserId.Text = "18181818";
             // 
             // lblTitleInfo
             // 
@@ -643,7 +594,7 @@ namespace ExaminationManagement
             this.lblTitleInfo.Name = "lblTitleInfo";
             this.lblTitleInfo.Size = new System.Drawing.Size(1353, 52);
             this.lblTitleInfo.TabIndex = 150;
-            this.lblTitleInfo.Text = "INFOMATION USER";
+            this.lblTitleInfo.Text = "INFOMATION TEACHER";
             this.lblTitleInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pnlFooter
@@ -666,43 +617,43 @@ namespace ExaminationManagement
             this.tabLearning.Name = "tabLearning";
             this.tabLearning.Size = new System.Drawing.Size(1359, 722);
             this.tabLearning.TabIndex = 1;
-            this.tabLearning.Text = "   Examination Schedule   ";
+            this.tabLearning.Text = "   Questions   ";
             // 
             // dgvSchedule
             // 
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
-            this.dgvSchedule.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgvSchedule.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvSchedule.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvSchedule.BackgroundColor = System.Drawing.Color.White;
             this.dgvSchedule.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvSchedule.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvSchedule.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvSchedule.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSchedule.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvSchedule.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvSchedule.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvSchedule.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvSchedule.EnableHeadersVisualStyles = false;
             this.dgvSchedule.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvSchedule.Location = new System.Drawing.Point(247, 104);
+            this.dgvSchedule.Location = new System.Drawing.Point(906, 91);
             this.dgvSchedule.Name = "dgvSchedule";
             this.dgvSchedule.RowHeadersVisible = false;
             this.dgvSchedule.RowHeadersWidth = 51;
             this.dgvSchedule.RowTemplate.Height = 24;
             this.dgvSchedule.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSchedule.Size = new System.Drawing.Size(865, 464);
+            this.dgvSchedule.Size = new System.Drawing.Size(399, 307);
             this.dgvSchedule.TabIndex = 154;
             this.dgvSchedule.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.dgvSchedule.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -736,7 +687,7 @@ namespace ExaminationManagement
             this.tabSchedule.Name = "tabSchedule";
             this.tabSchedule.Size = new System.Drawing.Size(1359, 88);
             this.tabSchedule.TabIndex = 152;
-            this.tabSchedule.Text = "Examination schedule";
+            this.tabSchedule.Text = "Question management";
             this.tabSchedule.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2Panel4
@@ -774,30 +725,30 @@ namespace ExaminationManagement
             // 
             // dgvAchievement
             // 
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
-            this.dgvAchievement.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.dgvAchievement.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvAchievement.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvAchievement.BackgroundColor = System.Drawing.Color.White;
             this.dgvAchievement.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvAchievement.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvAchievement.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvAchievement.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvAchievement.ColumnHeadersHeight = 4;
             this.dgvAchievement.ColumnHeadersVisible = false;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvAchievement.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvAchievement.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvAchievement.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvAchievement.EnableHeadersVisualStyles = false;
             this.dgvAchievement.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
@@ -925,30 +876,30 @@ namespace ExaminationManagement
             // 
             // dgvPaper
             // 
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
-            this.dgvPaper.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            this.dgvPaper.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.dgvPaper.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvPaper.BackgroundColor = System.Drawing.Color.White;
             this.dgvPaper.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvPaper.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvPaper.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPaper.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvPaper.ColumnHeadersHeight = 4;
             this.dgvPaper.ColumnHeadersVisible = false;
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvPaper.DefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvPaper.DefaultCellStyle = dataGridViewCellStyle9;
             this.dgvPaper.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvPaper.EnableHeadersVisualStyles = false;
             this.dgvPaper.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
@@ -1153,12 +1104,14 @@ namespace ExaminationManagement
             // 
             // frmTeacher
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(24)))), ((int)(((byte)(74)))));
             this.ClientSize = new System.Drawing.Size(1367, 758);
             this.Controls.Add(this.tabMain);
             this.Name = "frmTeacher";
             this.Text = "frmTeacher";
+            this.Load += new System.EventHandler(this.frmTeacher_Load);
             this.tabMain.ResumeLayout(false);
             this.tabInfo.ResumeLayout(false);
             this.pnlInfo.ResumeLayout(false);
@@ -1189,19 +1142,16 @@ namespace ExaminationManagement
         private Guna.UI2.WinForms.Guna2Button btnLogin;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picAvatar;
         private Guna.UI2.WinForms.Guna2GradientButton btnUpdateAvatar;
-        private Guna.UI2.WinForms.Guna2ComboBox cmbClass;
         private Guna.UI2.WinForms.Guna2TextBox txtPass;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtmDOB;
         private System.Windows.Forms.Label lblPass;
         private Guna.UI2.WinForms.Guna2GradientButton btnUpdate;
         private System.Windows.Forms.Label lblPassCf;
-        private Guna.UI2.WinForms.Guna2TextBox txtIdStudent;
         private Guna.UI2.WinForms.Guna2TextBox txtFullname;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblDob;
         private Guna.UI2.WinForms.Guna2TextBox txtPassCf;
-        private System.Windows.Forms.Label lblClass;
-        private System.Windows.Forms.Label lblIdStudent;
+        private System.Windows.Forms.Label lblSubject;
         private System.Windows.Forms.Label lblFullname;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -1211,6 +1161,7 @@ namespace ExaminationManagement
         private Guna.UI2.WinForms.Guna2GradientButton btnSavePass;
         private Guna.UI2.WinForms.Guna2GradientButton btnSaveInfo;
         private Guna.UI2.WinForms.Guna2GradientButton btnSaveAvatar;
+        private System.Windows.Forms.Label lblUserId;
         private System.Windows.Forms.Label lblTitleInfo;
         private Guna.UI2.WinForms.Guna2Panel pnlFooter;
         private System.Windows.Forms.TabPage tabLearning;
