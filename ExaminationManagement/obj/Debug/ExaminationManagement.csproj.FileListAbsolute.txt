@@ -13,3 +13,20 @@ D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\DA-LTUDQL1\ExaminationMa
 D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\DA-LTUDQL1\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmRegister.resources
 D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\DA-LTUDQL1\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmStudent.resources
 D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\DA-LTUDQL1\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmExam.resources
+C:\Users\duc\ExaminationManagement\ExaminationManagement\bin\Debug\ExaminationManagement.exe.config
+C:\Users\duc\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.exe
+C:\Users\duc\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.pdb
+C:\Users\duc\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmExam.resources
+C:\Users\duc\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmLogin.resources
+C:\Users\duc\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmRegister.resources
+C:\Users\duc\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmStudent.resources
+C:\Users\duc\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmTeacher.resources
+C:\Users\duc\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.Properties.Resources.resources
+C:\Users\duc\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.csproj.GenerateResource.Cache
+C:\Users\duc\ExaminationManagement\ExaminationManagement\bin\Debug\ExaminationManagement.exe
+C:\Users\duc\ExaminationManagement\ExaminationManagement\bin\Debug\ExaminationManagement.pdb
+C:\Users\duc\ExaminationManagement\ExaminationManagement\bin\Debug\Guna.UI2.dll
+C:\Users\duc\ExaminationManagement\ExaminationManagement\bin\Debug\MySql.Data.dll
+C:\Users\duc\ExaminationManagement\ExaminationManagement\bin\Debug\Google.Protobuf.dll
+C:\Users\duc\ExaminationManagement\ExaminationManagement\bin\Debug\MySql.Data.xml
+C:\Users\duc\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.csprojResolveAssemblyReference.cache

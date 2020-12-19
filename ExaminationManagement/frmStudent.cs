@@ -8,10 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ExaminationManagement
 {
     public partial class frmStudent : Form
     {
+        private frmLogin frmLogin;
+        private Student student;
 
         private void showControlUpadteInfo()
         {
@@ -50,6 +53,12 @@ namespace ExaminationManagement
         public frmStudent()
         {
             InitializeComponent();
+        }
+
+        public frmStudent(frmLogin frmLogin, Student student)
+        {
+            this.frmLogin = frmLogin;
+            this.student = student;
         }
 
         private void frmStudent_Load(object sender, EventArgs e)

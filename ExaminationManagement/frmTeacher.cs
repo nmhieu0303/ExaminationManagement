@@ -12,9 +12,18 @@ namespace ExaminationManagement
 {
     public partial class frmTeacher : Form
     {
+        private frmLogin frmLogin;
+        private Teacher teacher;
+
         public frmTeacher()
         {
             InitializeComponent();
+        }
+
+        public frmTeacher(frmLogin frmLogin, Teacher teacher)
+        {
+            this.frmLogin = frmLogin;
+            this.teacher = teacher;
         }
     }
 }

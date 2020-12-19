@@ -40,10 +40,10 @@ namespace ExaminationManagement
             this.btnExit = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label6 = new System.Windows.Forms.Label();
             this.cmbTypeUser = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblname = new System.Windows.Forms.Label();
             this.txtName = new Guna.UI2.WinForms.Guna2TextBox();
             this.dtmDOB = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblbirth = new System.Windows.Forms.Label();
             this.cmbGrade = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lblGrade = new System.Windows.Forms.Label();
             this.cmbSubject = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -73,10 +73,11 @@ namespace ExaminationManagement
             this.btnSignUp.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(54)))), ((int)(((byte)(252)))));
             this.btnSignUp.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(36)))), ((int)(((byte)(177)))));
             this.btnSignUp.HoverState.Parent = this.btnSignUp;
-            this.btnSignUp.Location = new System.Drawing.Point(422, 707);
+            this.btnSignUp.Location = new System.Drawing.Point(316, 574);
+            this.btnSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.ShadowDecoration.Parent = this.btnSignUp;
-            this.btnSignUp.Size = new System.Drawing.Size(331, 46);
+            this.btnSignUp.Size = new System.Drawing.Size(248, 37);
             this.btnSignUp.TabIndex = 21;
             this.btnSignUp.Text = "Sign Up";
             // 
@@ -85,9 +86,10 @@ namespace ExaminationManagement
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(477, 12);
+            this.label4.Location = new System.Drawing.Point(358, 10);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(212, 38);
+            this.label4.Size = new System.Drawing.Size(169, 30);
             this.label4.TabIndex = 20;
             this.label4.Text = "Create account";
             // 
@@ -99,10 +101,11 @@ namespace ExaminationManagement
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnLogin.HoverState.Parent = this.btnLogin;
-            this.btnLogin.Location = new System.Drawing.Point(958, 81);
+            this.btnLogin.Location = new System.Drawing.Point(718, 66);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.ShadowDecoration.Parent = this.btnLogin;
-            this.btnLogin.Size = new System.Drawing.Size(112, 53);
+            this.btnLogin.Size = new System.Drawing.Size(84, 43);
             this.btnLogin.TabIndex = 14;
             this.btnLogin.Text = "Login →";
             // 
@@ -125,11 +128,12 @@ namespace ExaminationManagement
             this.btnExit.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnExit.HoverState.ForeColor = System.Drawing.Color.Red;
             this.btnExit.HoverState.Parent = this.btnExit;
-            this.btnExit.Location = new System.Drawing.Point(1066, 12);
+            this.btnExit.Location = new System.Drawing.Point(800, 10);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
-            this.btnExit.Size = new System.Drawing.Size(50, 50);
+            this.btnExit.Size = new System.Drawing.Size(38, 41);
             this.btnExit.TabIndex = 23;
             this.btnExit.Text = "✖";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -139,9 +143,10 @@ namespace ExaminationManagement
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label6.Location = new System.Drawing.Point(424, 58);
+            this.label6.Location = new System.Drawing.Point(318, 47);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 20);
+            this.label6.Size = new System.Drawing.Size(59, 15);
             this.label6.TabIndex = 98;
             this.label6.Text = "Type User";
             // 
@@ -162,22 +167,24 @@ namespace ExaminationManagement
             this.cmbTypeUser.HoverState.Parent = this.cmbTypeUser;
             this.cmbTypeUser.ItemHeight = 30;
             this.cmbTypeUser.ItemsAppearance.Parent = this.cmbTypeUser;
-            this.cmbTypeUser.Location = new System.Drawing.Point(422, 81);
+            this.cmbTypeUser.Location = new System.Drawing.Point(316, 66);
+            this.cmbTypeUser.Margin = new System.Windows.Forms.Padding(2);
             this.cmbTypeUser.Name = "cmbTypeUser";
             this.cmbTypeUser.ShadowDecoration.Parent = this.cmbTypeUser;
-            this.cmbTypeUser.Size = new System.Drawing.Size(331, 36);
+            this.cmbTypeUser.Size = new System.Drawing.Size(249, 36);
             this.cmbTypeUser.TabIndex = 99;
             // 
-            // label3
+            // lblname
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label3.Location = new System.Drawing.Point(429, 287);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 20);
-            this.label3.TabIndex = 101;
-            this.label3.Text = "Full name";
+            this.lblname.AutoSize = true;
+            this.lblname.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
+            this.lblname.Location = new System.Drawing.Point(322, 233);
+            this.lblname.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblname.Name = "lblname";
+            this.lblname.Size = new System.Drawing.Size(59, 15);
+            this.lblname.TabIndex = 101;
+            this.lblname.Text = "Full name";
             // 
             // txtName
             // 
@@ -198,13 +205,14 @@ namespace ExaminationManagement
             this.txtName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtName.HoverState.Parent = this.txtName;
-            this.txtName.Location = new System.Drawing.Point(422, 310);
+            this.txtName.Location = new System.Drawing.Point(316, 252);
+            this.txtName.Margin = new System.Windows.Forms.Padding(2);
             this.txtName.Name = "txtName";
             this.txtName.PasswordChar = '\0';
             this.txtName.PlaceholderText = "Type your full name";
             this.txtName.SelectedText = "";
             this.txtName.ShadowDecoration.Parent = this.txtName;
-            this.txtName.Size = new System.Drawing.Size(331, 46);
+            this.txtName.Size = new System.Drawing.Size(248, 37);
             this.txtName.TabIndex = 100;
             // 
             // dtmDOB
@@ -219,25 +227,27 @@ namespace ExaminationManagement
             this.dtmDOB.ForeColor = System.Drawing.Color.White;
             this.dtmDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtmDOB.HoverState.Parent = this.dtmDOB;
-            this.dtmDOB.Location = new System.Drawing.Point(422, 385);
+            this.dtmDOB.Location = new System.Drawing.Point(316, 313);
+            this.dtmDOB.Margin = new System.Windows.Forms.Padding(2);
             this.dtmDOB.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtmDOB.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtmDOB.Name = "dtmDOB";
             this.dtmDOB.ShadowDecoration.Parent = this.dtmDOB;
-            this.dtmDOB.Size = new System.Drawing.Size(331, 46);
+            this.dtmDOB.Size = new System.Drawing.Size(248, 37);
             this.dtmDOB.TabIndex = 102;
             this.dtmDOB.Value = new System.DateTime(2020, 12, 12, 17, 21, 21, 145);
             // 
-            // label5
+            // lblbirth
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label5.Location = new System.Drawing.Point(429, 362);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 20);
-            this.label5.TabIndex = 103;
-            this.label5.Text = "Birth";
+            this.lblbirth.AutoSize = true;
+            this.lblbirth.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblbirth.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
+            this.lblbirth.Location = new System.Drawing.Point(322, 294);
+            this.lblbirth.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblbirth.Name = "lblbirth";
+            this.lblbirth.Size = new System.Drawing.Size(32, 15);
+            this.lblbirth.TabIndex = 103;
+            this.lblbirth.Text = "Birth";
             // 
             // cmbGrade
             // 
@@ -256,10 +266,11 @@ namespace ExaminationManagement
             this.cmbGrade.HoverState.Parent = this.cmbGrade;
             this.cmbGrade.ItemHeight = 30;
             this.cmbGrade.ItemsAppearance.Parent = this.cmbGrade;
-            this.cmbGrade.Location = new System.Drawing.Point(422, 470);
+            this.cmbGrade.Location = new System.Drawing.Point(316, 382);
+            this.cmbGrade.Margin = new System.Windows.Forms.Padding(2);
             this.cmbGrade.Name = "cmbGrade";
             this.cmbGrade.ShadowDecoration.Parent = this.cmbGrade;
-            this.cmbGrade.Size = new System.Drawing.Size(331, 36);
+            this.cmbGrade.Size = new System.Drawing.Size(249, 36);
             this.cmbGrade.TabIndex = 107;
             // 
             // lblGrade
@@ -267,9 +278,10 @@ namespace ExaminationManagement
             this.lblGrade.AutoSize = true;
             this.lblGrade.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGrade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.lblGrade.Location = new System.Drawing.Point(424, 447);
+            this.lblGrade.Location = new System.Drawing.Point(318, 363);
+            this.lblGrade.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGrade.Name = "lblGrade";
-            this.lblGrade.Size = new System.Drawing.Size(59, 20);
+            this.lblGrade.Size = new System.Drawing.Size(47, 15);
             this.lblGrade.TabIndex = 106;
             this.lblGrade.Text = "Subject";
             // 
@@ -290,10 +302,11 @@ namespace ExaminationManagement
             this.cmbSubject.HoverState.Parent = this.cmbSubject;
             this.cmbSubject.ItemHeight = 30;
             this.cmbSubject.ItemsAppearance.Parent = this.cmbSubject;
-            this.cmbSubject.Location = new System.Drawing.Point(422, 470);
+            this.cmbSubject.Location = new System.Drawing.Point(316, 382);
+            this.cmbSubject.Margin = new System.Windows.Forms.Padding(2);
             this.cmbSubject.Name = "cmbSubject";
             this.cmbSubject.ShadowDecoration.Parent = this.cmbSubject;
-            this.cmbSubject.Size = new System.Drawing.Size(331, 36);
+            this.cmbSubject.Size = new System.Drawing.Size(249, 36);
             this.cmbSubject.TabIndex = 109;
             // 
             // lblSub
@@ -301,9 +314,10 @@ namespace ExaminationManagement
             this.lblSub.AutoSize = true;
             this.lblSub.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.lblSub.Location = new System.Drawing.Point(424, 447);
+            this.lblSub.Location = new System.Drawing.Point(318, 363);
+            this.lblSub.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSub.Name = "lblSub";
-            this.lblSub.Size = new System.Drawing.Size(59, 20);
+            this.lblSub.Size = new System.Drawing.Size(47, 15);
             this.lblSub.TabIndex = 108;
             this.lblSub.Text = "Subject";
             // 
@@ -324,10 +338,11 @@ namespace ExaminationManagement
             this.cmbClass.HoverState.Parent = this.cmbClass;
             this.cmbClass.ItemHeight = 30;
             this.cmbClass.ItemsAppearance.Parent = this.cmbClass;
-            this.cmbClass.Location = new System.Drawing.Point(422, 547);
+            this.cmbClass.Location = new System.Drawing.Point(316, 444);
+            this.cmbClass.Margin = new System.Windows.Forms.Padding(2);
             this.cmbClass.Name = "cmbClass";
             this.cmbClass.ShadowDecoration.Parent = this.cmbClass;
-            this.cmbClass.Size = new System.Drawing.Size(331, 36);
+            this.cmbClass.Size = new System.Drawing.Size(249, 36);
             this.cmbClass.TabIndex = 111;
             // 
             // txtClass
@@ -335,9 +350,10 @@ namespace ExaminationManagement
             this.txtClass.AutoSize = true;
             this.txtClass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtClass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.txtClass.Location = new System.Drawing.Point(424, 524);
+            this.txtClass.Location = new System.Drawing.Point(318, 426);
+            this.txtClass.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtClass.Name = "txtClass";
-            this.txtClass.Size = new System.Drawing.Size(42, 20);
+            this.txtClass.Size = new System.Drawing.Size(33, 15);
             this.txtClass.TabIndex = 110;
             this.txtClass.Text = "Class";
             // 
@@ -369,13 +385,14 @@ namespace ExaminationManagement
             this.dgvListClass.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvListClass.EnableHeadersVisualStyles = false;
             this.dgvListClass.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvListClass.Location = new System.Drawing.Point(422, 547);
+            this.dgvListClass.Location = new System.Drawing.Point(316, 444);
+            this.dgvListClass.Margin = new System.Windows.Forms.Padding(2);
             this.dgvListClass.Name = "dgvListClass";
             this.dgvListClass.RowHeadersVisible = false;
             this.dgvListClass.RowHeadersWidth = 51;
             this.dgvListClass.RowTemplate.Height = 24;
             this.dgvListClass.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvListClass.Size = new System.Drawing.Size(331, 134);
+            this.dgvListClass.Size = new System.Drawing.Size(248, 109);
             this.dgvListClass.TabIndex = 112;
             this.dgvListClass.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.dgvListClass.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -419,13 +436,14 @@ namespace ExaminationManagement
             this.txtId.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtId.HoverState.Parent = this.txtId;
-            this.txtId.Location = new System.Drawing.Point(422, 156);
+            this.txtId.Location = new System.Drawing.Point(316, 127);
+            this.txtId.Margin = new System.Windows.Forms.Padding(2);
             this.txtId.Name = "txtId";
             this.txtId.PasswordChar = '\0';
             this.txtId.PlaceholderText = "Type ID";
             this.txtId.SelectedText = "";
             this.txtId.ShadowDecoration.Parent = this.txtId;
-            this.txtId.Size = new System.Drawing.Size(331, 46);
+            this.txtId.Size = new System.Drawing.Size(248, 37);
             this.txtId.TabIndex = 15;
             // 
             // txtPass
@@ -447,23 +465,26 @@ namespace ExaminationManagement
             this.txtPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPass.HoverState.Parent = this.txtPass;
-            this.txtPass.Location = new System.Drawing.Point(422, 231);
+            this.txtPass.Location = new System.Drawing.Point(316, 188);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(2);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '\0';
             this.txtPass.PlaceholderText = "Type password";
             this.txtPass.SelectedText = "";
             this.txtPass.ShadowDecoration.Parent = this.txtPass;
-            this.txtPass.Size = new System.Drawing.Size(331, 46);
+            this.txtPass.Size = new System.Drawing.Size(248, 37);
             this.txtPass.TabIndex = 16;
+            this.txtPass.UseSystemPasswordChar = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label1.Location = new System.Drawing.Point(424, 206);
+            this.label1.Location = new System.Drawing.Point(318, 167);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 20);
+            this.label1.Size = new System.Drawing.Size(57, 15);
             this.label1.TabIndex = 17;
             this.label1.Text = "Password";
             // 
@@ -472,9 +493,10 @@ namespace ExaminationManagement
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label2.Location = new System.Drawing.Point(424, 130);
+            this.label2.Location = new System.Drawing.Point(318, 106);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(24, 20);
+            this.label2.Size = new System.Drawing.Size(19, 15);
             this.label2.TabIndex = 18;
             this.label2.Text = "ID";
             // 
@@ -486,19 +508,20 @@ namespace ExaminationManagement
             // 
             this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2PictureBox1.Image = global::ExaminationManagement.Properties.Resources.wavesOpacity;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 666);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 541);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(1130, 114);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(848, 93);
             this.guna2PictureBox1.TabIndex = 12;
             this.guna2PictureBox1.TabStop = false;
             // 
             // frmRegister
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(24)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(1130, 780);
+            this.ClientSize = new System.Drawing.Size(848, 634);
             this.Controls.Add(this.dgvListClass);
             this.Controls.Add(this.cmbClass);
             this.Controls.Add(this.txtClass);
@@ -506,9 +529,9 @@ namespace ExaminationManagement
             this.Controls.Add(this.lblSub);
             this.Controls.Add(this.cmbGrade);
             this.Controls.Add(this.lblGrade);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblbirth);
             this.Controls.Add(this.dtmDOB);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblname);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.cmbTypeUser);
             this.Controls.Add(this.label6);
@@ -522,6 +545,7 @@ namespace ExaminationManagement
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmRegister";
@@ -541,10 +565,10 @@ namespace ExaminationManagement
         private Guna.UI2.WinForms.Guna2CircleButton btnExit;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2ComboBox cmbTypeUser;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblname;
         private Guna.UI2.WinForms.Guna2TextBox txtName;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtmDOB;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblbirth;
         private Guna.UI2.WinForms.Guna2ComboBox cmbGrade;
         private System.Windows.Forms.Label lblGrade;
         private Guna.UI2.WinForms.Guna2ComboBox cmbSubject;

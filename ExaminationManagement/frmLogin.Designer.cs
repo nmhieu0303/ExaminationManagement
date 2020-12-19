@@ -60,11 +60,12 @@ namespace ExaminationManagement
             this.btnExit.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnExit.HoverState.ForeColor = System.Drawing.Color.Red;
             this.btnExit.HoverState.Parent = this.btnExit;
-            this.btnExit.Location = new System.Drawing.Point(1066, 12);
+            this.btnExit.Location = new System.Drawing.Point(800, 10);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
-            this.btnExit.Size = new System.Drawing.Size(50, 50);
+            this.btnExit.Size = new System.Drawing.Size(38, 41);
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "✖";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -77,10 +78,11 @@ namespace ExaminationManagement
             this.btnSignUp.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignUp.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnSignUp.HoverState.Parent = this.btnSignUp;
-            this.btnSignUp.Location = new System.Drawing.Point(958, 86);
+            this.btnSignUp.Location = new System.Drawing.Point(718, 70);
+            this.btnSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.ShadowDecoration.Parent = this.btnSignUp;
-            this.btnSignUp.Size = new System.Drawing.Size(112, 53);
+            this.btnSignUp.Size = new System.Drawing.Size(84, 43);
             this.btnSignUp.TabIndex = 3;
             this.btnSignUp.Text = "Sign Up →";
             // 
@@ -103,13 +105,14 @@ namespace ExaminationManagement
             this.txtId.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtId.HoverState.Parent = this.txtId;
-            this.txtId.Location = new System.Drawing.Point(408, 235);
+            this.txtId.Location = new System.Drawing.Point(306, 191);
+            this.txtId.Margin = new System.Windows.Forms.Padding(2);
             this.txtId.Name = "txtId";
             this.txtId.PasswordChar = '\0';
             this.txtId.PlaceholderText = "";
             this.txtId.SelectedText = "";
             this.txtId.ShadowDecoration.Parent = this.txtId;
-            this.txtId.Size = new System.Drawing.Size(331, 46);
+            this.txtId.Size = new System.Drawing.Size(248, 37);
             this.txtId.TabIndex = 4;
             // 
             // txtPass
@@ -131,23 +134,26 @@ namespace ExaminationManagement
             this.txtPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPass.HoverState.Parent = this.txtPass;
-            this.txtPass.Location = new System.Drawing.Point(408, 328);
+            this.txtPass.Location = new System.Drawing.Point(306, 266);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(2);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '\0';
             this.txtPass.PlaceholderText = "";
             this.txtPass.SelectedText = "";
             this.txtPass.ShadowDecoration.Parent = this.txtPass;
-            this.txtPass.Size = new System.Drawing.Size(331, 46);
+            this.txtPass.Size = new System.Drawing.Size(248, 37);
             this.txtPass.TabIndex = 5;
+            this.txtPass.UseSystemPasswordChar = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label1.Location = new System.Drawing.Point(410, 303);
+            this.label1.Location = new System.Drawing.Point(308, 246);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 20);
+            this.label1.Size = new System.Drawing.Size(57, 15);
             this.label1.TabIndex = 6;
             this.label1.Text = "Password";
             // 
@@ -156,9 +162,10 @@ namespace ExaminationManagement
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label2.Location = new System.Drawing.Point(410, 209);
+            this.label2.Location = new System.Drawing.Point(308, 170);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(24, 20);
+            this.label2.Size = new System.Drawing.Size(19, 15);
             this.label2.TabIndex = 7;
             this.label2.Text = "ID";
             // 
@@ -167,9 +174,10 @@ namespace ExaminationManagement
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label3.Location = new System.Drawing.Point(410, 170);
+            this.label3.Location = new System.Drawing.Point(308, 138);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 20);
+            this.label3.Size = new System.Drawing.Size(69, 15);
             this.label3.TabIndex = 8;
             this.label3.Text = "Let\'s join us";
             // 
@@ -178,9 +186,10 @@ namespace ExaminationManagement
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(401, 123);
+            this.label4.Location = new System.Drawing.Point(301, 100);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(264, 38);
+            this.label4.Size = new System.Drawing.Size(207, 30);
             this.label4.TabIndex = 9;
             this.label4.Text = "Here you can login";
             // 
@@ -195,10 +204,11 @@ namespace ExaminationManagement
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(54)))), ((int)(((byte)(252)))));
             this.btnLogin.HoverState.Parent = this.btnLogin;
-            this.btnLogin.Location = new System.Drawing.Point(408, 412);
+            this.btnLogin.Location = new System.Drawing.Point(306, 335);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.ShadowDecoration.Parent = this.btnLogin;
-            this.btnLogin.Size = new System.Drawing.Size(331, 46);
+            this.btnLogin.Size = new System.Drawing.Size(248, 37);
             this.btnLogin.TabIndex = 10;
             this.btnLogin.Text = "Login ";
             // 
@@ -208,9 +218,10 @@ namespace ExaminationManagement
             this.linkForget.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
             this.linkForget.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkForget.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.linkForget.Location = new System.Drawing.Point(504, 473);
+            this.linkForget.Location = new System.Drawing.Point(378, 384);
+            this.linkForget.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkForget.Name = "linkForget";
-            this.linkForget.Size = new System.Drawing.Size(153, 17);
+            this.linkForget.Size = new System.Drawing.Size(114, 13);
             this.linkForget.TabIndex = 11;
             this.linkForget.TabStop = true;
             this.linkForget.Text = "Forget your password?";
@@ -225,19 +236,20 @@ namespace ExaminationManagement
             // 
             this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2PictureBox1.Image = global::ExaminationManagement.Properties.Resources.wavesOpacity;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 535);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 435);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(1128, 116);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(846, 94);
             this.guna2PictureBox1.TabIndex = 1;
             this.guna2PictureBox1.TabStop = false;
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(24)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(1128, 651);
+            this.ClientSize = new System.Drawing.Size(846, 529);
             this.ControlBox = false;
             this.Controls.Add(this.linkForget);
             this.Controls.Add(this.btnLogin);
@@ -251,6 +263,7 @@ namespace ExaminationManagement
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
