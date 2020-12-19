@@ -15,15 +15,9 @@ namespace ExaminationManagement
         private frmLogin frmLogin;
         private Teacher teacher;
 
-        public frmTeacher()
-        {
-            InitializeComponent();
-        }
-
         public frmTeacher(frmLogin frmLogin, Teacher teacher)
         {
-            this.frmLogin = frmLogin;
-            this.teacher = teacher;
+            InitializeComponent();
         }
     }
 }

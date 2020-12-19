@@ -50,15 +50,9 @@ namespace ExaminationManagement
             txtPass.Hide();
             btnChangePass.Show();
         }
-        public frmStudent()
-        {
-            InitializeComponent();
-        }
-
         public frmStudent(frmLogin frmLogin, Student student)
         {
-            this.frmLogin = frmLogin;
-            this.student = student;
+            InitializeComponent();
         }
 
         private void frmStudent_Load(object sender, EventArgs e)
