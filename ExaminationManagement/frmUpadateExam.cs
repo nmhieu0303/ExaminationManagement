@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace ExaminationManagement
 {
-    public partial class frmExam : Form
+    public partial class frmUpadateExam : Form
     {
-        public frmExam()
+        public frmUpadateExam()
         {
             InitializeComponent();
-            
         }
-
-        private void guna2ImageButton2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
     }
 }

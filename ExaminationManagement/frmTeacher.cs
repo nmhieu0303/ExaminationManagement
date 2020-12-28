@@ -20,6 +20,7 @@ namespace ExaminationManagement
         {
             hideControlChangePass();
             hideControlUpadteInfo();
+            pnlChoiceQuestion.Hide();
         }
 
 
@@ -110,6 +111,22 @@ namespace ExaminationManagement
             }
         }
 
-      
+        private void btnAddPaper_Click(object sender, EventArgs e)
+        {
+            
+            transitionListQuestion.Show(pnlChoiceQuestion);
+        }
+
+        private void btnCloseChoiceQues_Click(object sender, EventArgs e)
+        {
+            transitionListQuestion.Hide(pnlChoiceQuestion);
+        }
+
+        private void btnWatchQuestion_Click(object sender, EventArgs e)
+        {
+            transitionListQuestion.Show(pnlChoiceQuestion);
+        }
+
+
     }
 }

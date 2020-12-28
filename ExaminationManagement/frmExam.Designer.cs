@@ -43,8 +43,13 @@ namespace ExaminationManagement
             this.lblQuestion = new System.Windows.Forms.Label();
             this.pnlLeft = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.proTime = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.lblTimeCountDown = new System.Windows.Forms.Label();
+            this.pnlCtr = new Guna.UI2.WinForms.Guna2Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.pnlTop = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlTitle = new Guna.UI2.WinForms.Guna2Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -57,22 +62,16 @@ namespace ExaminationManagement
             this.lblSub = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.pnlCtr = new Guna.UI2.WinForms.Guna2Panel();
-            this.chklQuestion = new System.Windows.Forms.CheckedListBox();
             this.tmrDoTime = new System.Windows.Forms.Timer(this.components);
+            this.fpnlListQuestion = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlQuestionGrp.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.pnlLeft.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.proTime.SuspendLayout();
+            this.pnlCtr.SuspendLayout();
             this.pnlTop.SuspendLayout();
             this.pnlTitle.SuspendLayout();
-            this.pnlCtr.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlQuestionGrp
@@ -221,8 +220,7 @@ namespace ExaminationManagement
             // pnlLeft
             // 
             this.pnlLeft.BackColor = System.Drawing.Color.Transparent;
-            this.pnlLeft.Controls.Add(this.chklQuestion);
-            this.pnlLeft.Controls.Add(this.panel1);
+            this.pnlLeft.Controls.Add(this.fpnlListQuestion);
             this.pnlLeft.Controls.Add(this.guna2Panel2);
             this.pnlLeft.Controls.Add(this.pnlCtr);
             this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Left;
@@ -245,6 +243,27 @@ namespace ExaminationManagement
             this.guna2Panel2.Size = new System.Drawing.Size(419, 243);
             this.guna2Panel2.TabIndex = 3;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(110, 197);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(184, 38);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "List question";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.ForeColor = System.Drawing.Color.White;
+            this.panel3.Location = new System.Drawing.Point(0, 238);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(419, 5);
+            this.panel3.TabIndex = 5;
+            // 
             // proTime
             // 
             this.proTime.Controls.Add(this.lblTimeCountDown);
@@ -265,6 +284,46 @@ namespace ExaminationManagement
             this.lblTimeCountDown.TabIndex = 15;
             this.lblTimeCountDown.Text = "24:00:00";
             this.lblTimeCountDown.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pnlCtr
+            // 
+            this.pnlCtr.Controls.Add(this.panel4);
+            this.pnlCtr.Controls.Add(this.guna2GradientButton1);
+            this.pnlCtr.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlCtr.Location = new System.Drawing.Point(0, 638);
+            this.pnlCtr.Name = "pnlCtr";
+            this.pnlCtr.ShadowDecoration.Parent = this.pnlCtr;
+            this.pnlCtr.Size = new System.Drawing.Size(419, 120);
+            this.pnlCtr.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.ForeColor = System.Drawing.Color.White;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(419, 5);
+            this.panel4.TabIndex = 6;
+            // 
+            // guna2GradientButton1
+            // 
+            this.guna2GradientButton1.Animated = true;
+            this.guna2GradientButton1.BorderRadius = 10;
+            this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.CustomImages.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.FillColor = System.Drawing.Color.Green;
+            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.YellowGreen;
+            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold);
+            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.IndicateFocus = true;
+            this.guna2GradientButton1.Location = new System.Drawing.Point(79, 35);
+            this.guna2GradientButton1.Name = "guna2GradientButton1";
+            this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.Size = new System.Drawing.Size(224, 56);
+            this.guna2GradientButton1.TabIndex = 0;
+            this.guna2GradientButton1.Text = "Submit";
             // 
             // pnlTop
             // 
@@ -399,102 +458,14 @@ namespace ExaminationManagement
             this.label1.Text = "KÌ THI TRUNG HỌC PHỔ THÔNG QUỐC GIA 2020";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel1
+            // fpnlListQuestion
             // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.ForeColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(0, 243);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(152, 395);
-            this.panel1.TabIndex = 4;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.ForeColor = System.Drawing.Color.White;
-            this.panel3.Location = new System.Drawing.Point(0, 238);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(419, 5);
-            this.panel3.TabIndex = 5;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(110, 197);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(184, 38);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "List question";
-            // 
-            // guna2GradientButton1
-            // 
-            this.guna2GradientButton1.Animated = true;
-            this.guna2GradientButton1.BorderRadius = 10;
-            this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.CustomImages.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.Green;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.YellowGreen;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold);
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.IndicateFocus = true;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(79, 35);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Size = new System.Drawing.Size(224, 56);
-            this.guna2GradientButton1.TabIndex = 0;
-            this.guna2GradientButton1.Text = "Submit";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.ForeColor = System.Drawing.Color.White;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(419, 5);
-            this.panel4.TabIndex = 6;
-            // 
-            // pnlCtr
-            // 
-            this.pnlCtr.Controls.Add(this.panel4);
-            this.pnlCtr.Controls.Add(this.guna2GradientButton1);
-            this.pnlCtr.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlCtr.Location = new System.Drawing.Point(0, 638);
-            this.pnlCtr.Name = "pnlCtr";
-            this.pnlCtr.ShadowDecoration.Parent = this.pnlCtr;
-            this.pnlCtr.Size = new System.Drawing.Size(419, 120);
-            this.pnlCtr.TabIndex = 0;
-            // 
-            // chklQuestion
-            // 
-            this.chklQuestion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(24)))), ((int)(((byte)(74)))));
-            this.chklQuestion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.chklQuestion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chklQuestion.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chklQuestion.ForeColor = System.Drawing.Color.White;
-            this.chklQuestion.FormattingEnabled = true;
-            this.chklQuestion.Items.AddRange(new object[] {
-            "Câu 1",
-            "Câu 2",
-            "Câu 3",
-            "Câu 4",
-            "Câu 5",
-            "Câu 6",
-            "Câu 7",
-            "Câu 8",
-            "Câu 9",
-            "Câu 10",
-            "Câu 11",
-            "Câu 12",
-            "Câu 13"});
-            this.chklQuestion.Location = new System.Drawing.Point(152, 243);
-            this.chklQuestion.Name = "chklQuestion";
-            this.chklQuestion.Size = new System.Drawing.Size(267, 395);
-            this.chklQuestion.TabIndex = 14;
+            this.fpnlListQuestion.AutoScroll = true;
+            this.fpnlListQuestion.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fpnlListQuestion.Location = new System.Drawing.Point(0, 243);
+            this.fpnlListQuestion.Name = "fpnlListQuestion";
+            this.fpnlListQuestion.Size = new System.Drawing.Size(419, 395);
+            this.fpnlListQuestion.TabIndex = 4;
             // 
             // frmExam
             // 
@@ -515,10 +486,10 @@ namespace ExaminationManagement
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.proTime.ResumeLayout(false);
+            this.pnlCtr.ResumeLayout(false);
             this.pnlTop.ResumeLayout(false);
             this.pnlTitle.ResumeLayout(false);
             this.pnlTitle.PerformLayout();
-            this.pnlCtr.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -551,13 +522,12 @@ namespace ExaminationManagement
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2CircleProgressBar proTime;
         private System.Windows.Forms.Label lblTimeCountDown;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label7;
         private Guna.UI2.WinForms.Guna2Panel pnlCtr;
         private System.Windows.Forms.Panel panel4;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
-        private System.Windows.Forms.CheckedListBox chklQuestion;
         private System.Windows.Forms.Timer tmrDoTime;
+        private System.Windows.Forms.FlowLayoutPanel fpnlListQuestion;
     }
 }

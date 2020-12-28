@@ -14,3 +14,4 @@ D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\DA-LTUDQL1\ExaminationMa
 D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\DA-LTUDQL1\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmStudent.resources
 D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\DA-LTUDQL1\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmExam.resources
 D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\DA-LTUDQL1\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmTeacher.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\DA-LTUDQL1\ExaminationManagement\ExaminationManagement\obj\Debug\ExaminationManagement.frmCreateExam.resources
