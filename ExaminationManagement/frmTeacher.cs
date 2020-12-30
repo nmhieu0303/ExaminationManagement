@@ -21,8 +21,10 @@ namespace ExaminationManagement
             hideControlChangePass();
             hideControlUpadteInfo();
             pnlChoiceQuestion.Hide();
+           
         }
 
+ 
 
         private void showControlUpadteInfo()
         {
@@ -127,6 +129,14 @@ namespace ExaminationManagement
             transitionListQuestion.Show(pnlChoiceQuestion);
         }
 
+        private void txtQuestion_TextChanged(object sender, EventArgs e)
+        {
 
+        }
+
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

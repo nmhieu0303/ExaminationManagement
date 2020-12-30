@@ -98,6 +98,7 @@ namespace ExaminationManagement
             this.lblTitleInfo = new System.Windows.Forms.Label();
             this.pnlFooter = new Guna.UI2.WinForms.Guna2Panel();
             this.tabMain = new System.Windows.Forms.TabControl();
+            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAchievement)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPaper)).BeginInit();
             this.tabPractice.SuspendLayout();
@@ -534,6 +535,7 @@ namespace ExaminationManagement
             // tabLearning
             // 
             this.tabLearning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(24)))), ((int)(((byte)(74)))));
+            this.tabLearning.Controls.Add(this.guna2GradientButton1);
             this.tabLearning.Controls.Add(this.dgvSchedule);
             this.tabLearning.Controls.Add(this.tabSchedule);
             this.tabLearning.Controls.Add(this.guna2Panel4);
@@ -577,7 +579,7 @@ namespace ExaminationManagement
             this.dgvSchedule.RowHeadersWidth = 51;
             this.dgvSchedule.RowTemplate.Height = 24;
             this.dgvSchedule.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSchedule.Size = new System.Drawing.Size(865, 464);
+            this.dgvSchedule.Size = new System.Drawing.Size(865, 421);
             this.dgvSchedule.TabIndex = 154;
             this.dgvSchedule.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.dgvSchedule.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -1121,6 +1123,25 @@ namespace ExaminationManagement
             this.tabMain.Size = new System.Drawing.Size(1367, 758);
             this.tabMain.TabIndex = 1;
             // 
+            // guna2GradientButton1
+            // 
+            this.guna2GradientButton1.BorderRadius = 5;
+            this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.CustomImages.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(36)))), ((int)(((byte)(177)))));
+            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(54)))), ((int)(((byte)(252)))));
+            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(54)))), ((int)(((byte)(252)))));
+            this.guna2GradientButton1.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(36)))), ((int)(((byte)(177)))));
+            this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.Location = new System.Drawing.Point(484, 531);
+            this.guna2GradientButton1.Name = "guna2GradientButton1";
+            this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.Size = new System.Drawing.Size(331, 65);
+            this.guna2GradientButton1.TabIndex = 155;
+            this.guna2GradientButton1.Text = "Start";
+            // 
             // frmStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -1213,5 +1234,6 @@ namespace ExaminationManagement
         private Guna.UI2.WinForms.Guna2Panel pnlFooter;
         private System.Windows.Forms.TabControl tabMain;
         private Guna.UI2.WinForms.Guna2Button btnLogin;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
     }
 }
