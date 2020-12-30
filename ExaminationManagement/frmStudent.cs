@@ -8,10 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ExaminationManagement
 {
     public partial class frmStudent : Form
     {
+        private frmLogin frmLogin;
+        private Student student;
 
         private void showControlUpadteInfo()
         {
@@ -41,7 +44,7 @@ namespace ExaminationManagement
             txtPass.Hide();
             btnChangePass.Show();
         }
-        public frmStudent()
+        public frmStudent(frmLogin frmLogin, Student student)
         {
             InitializeComponent();
         }
