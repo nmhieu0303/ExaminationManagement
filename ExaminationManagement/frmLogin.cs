@@ -17,10 +17,6 @@ namespace ExaminationManagement
         public frmLogin()
         {
             InitializeComponent();
-            txtId.Validating += TxtUsename_Validating;
-            txtPass.Validating += TxtUsename_Validating;
-            txtId.GotFocus += TxtUsename_GotFocus;
-            txtPass.GotFocus += TxtUsename_GotFocus;
             btnLogin.Click += (_, e) =>
             {
                 var username = txtId.Text;
@@ -59,31 +55,19 @@ namespace ExaminationManagement
             };
 
         }
-        private void TxtUsename_GotFocus(object sender, EventArgs e)
-        {
-            TextBox t = sender as TextBox;
-            t.SelectAll();
-        }
-
-        private void TxtUsename_Validating(object sender, CancelEventArgs e)
-        {
-            var ctrl = sender as Control;
-            var strInput = ctrl.Text;
-            if (strInput.Length == 0)
-            {
-                // errorProviderMain.SetError(ctrl, "not input");
-            }
-            else
-            {
-                //  errorProviderMain.SetError(ctrl, "");
-            }
-        }
+      
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+            var frmRegister = new frmRegister(this);
+            frmRegister.Show();
+        }
 
+    
     }
 }

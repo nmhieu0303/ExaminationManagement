@@ -85,6 +85,7 @@ namespace ExaminationManagement
             this.btnSignUp.Size = new System.Drawing.Size(84, 43);
             this.btnSignUp.TabIndex = 3;
             this.btnSignUp.Text = "Sign Up →";
+            this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
             // 
             // txtId
             // 
@@ -211,6 +212,7 @@ namespace ExaminationManagement
             this.btnLogin.Size = new System.Drawing.Size(248, 37);
             this.btnLogin.TabIndex = 10;
             this.btnLogin.Text = "Login ";
+       
             // 
             // linkForget
             // 
@@ -267,6 +269,7 @@ namespace ExaminationManagement
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+           
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

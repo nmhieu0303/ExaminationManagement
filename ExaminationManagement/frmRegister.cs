@@ -18,9 +18,9 @@ namespace ExaminationManagement
         static string[] arrHexa = { "0", "1", "2", "3", "4", "5","6","7","8","9", "A", "B", "C", "D", "E","F" };
         AccessData acc = new AccessData();
         frmLogin frmlogin;
-        public frmRegister()
+        public frmRegister(frmLogin frmlogin)
         {
-            this.frmlogin = frmlogin;
+            
             InitializeComponent();
             dgvListClass.Columns.Add(new DataGridViewCheckBoxColumn
             {
@@ -128,10 +128,11 @@ namespace ExaminationManagement
 
             MessageBox.Show("Đăng Ký Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information); // Nếu đang ký thành công => Sẽ có thông báo Thành Công và đồng thời các TextBox sẽ mất giá trị do [B]ClearTextBox()[/B].
             ClearTextBox();
-            // frmlogin.Show();
-            this.Close();
+            frmlogin.Show();
+           this.Close();
     };
         }
+
 
         private void loadcbgrade()
         {
@@ -195,6 +196,6 @@ namespace ExaminationManagement
             this.Close();
         }
 
-
+       
     }
 }
