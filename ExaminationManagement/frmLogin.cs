@@ -43,11 +43,11 @@ namespace ExaminationManagement
                         frm = null;
                         if (user.typeUser_id == "HS" && sb.ToString()==user.pass)
                         {
-                            frm = new frmStudent(this, user.Student);
+                            //frm = new frmStudent(this, user.Student);
                         }
                         else if (user.typeUser_id == "GV" && sb.ToString() == user.pass)
                         {
-                            frm = new frmTeacher(this, user.Teacher);
+                            //frm = new frmTeacher(this, user.Teacher);
                         }
                         if (frm != null)
                         {

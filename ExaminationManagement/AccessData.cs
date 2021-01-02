@@ -12,7 +12,7 @@ namespace ExaminationManagement
     {
         public SqlConnection GetConnection()
         {
-            return new SqlConnection("Data Source=DUC-PC;Initial Catalog=QLTracNghiem;Integrated Security=True");
+            return new SqlConnection("Data Source=DESKTOP-8ISHIDO;Initial Catalog=QLTracNghiem;Integrated Security=True");
         }
         public void ExcuteNotQuery(string sql)
         {

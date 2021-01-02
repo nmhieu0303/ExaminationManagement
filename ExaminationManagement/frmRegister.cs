@@ -108,14 +108,14 @@ namespace ExaminationManagement
                     typeUser_id = cmbTypeUser.SelectedValue.ToString(),
                     pass = sb.ToString()
                 });
-                ttn.Students.InsertOnSubmit(new Student
-                {
-                    id = ID,
-                    name = txtName.Text,
-                    dob = dtmDOB.Value,
-                    grade_id = cmbGrade.SelectedValue.ToString(),
-                    class_id = cmbClass.SelectedValue.ToString()
-                });
+                //ttn.Students.InsertOnSubmit(new Student
+                //{
+                //    id = ID,
+                //    name = txtName.Text,
+                //    dob = dtmDOB.Value,
+                //    grade_id = cmbGrade.SelectedValue.ToString(),
+                //    class_id = cmbClass.SelectedValue.ToString()
+                //});
                 ttn.Teachers.InsertOnSubmit(new Teacher
                 {
                     id = ID,
@@ -137,7 +137,7 @@ namespace ExaminationManagement
         {
             using (var ttn = new QLTTNDataContext())
             {
-                cmbGrade.DataSource = ttn.Grades.Select(kl => new { kl.id }).ToList();
+               // cmbGrade.DataSource = ttn.Grades.Select(kl => new { kl.id }).ToList();
                 cmbGrade.ValueMember = "id";
                 cmbGrade.DisplayMember = "id";
             }
@@ -147,7 +147,7 @@ namespace ExaminationManagement
         {
             using (var ttn = new QLTTNDataContext())
             {
-                cmbClass.DataSource = ttn.Classes.Where(lh => lh.grade_id == cmbGrade.SelectedValue.ToString()).Select(lh => new { lh.id }).ToList();
+                //cmbClass.DataSource = ttn.Classes.Where(lh => lh.grade_id == cmbGrade.SelectedValue.ToString()).Select(lh => new { lh.id }).ToList();
                 cmbClass.ValueMember = "id";
                 cmbClass.DisplayMember = "id";
             }
@@ -157,7 +157,7 @@ namespace ExaminationManagement
         {
             using (var ttn = new QLTTNDataContext())
             {
-                dgvListClass.DataSource = ttn.Classes.Select(lh => new { lh.grade_id, lh.id }).ToList();
+               // dgvListClass.DataSource = ttn.Classes.Select(lh => new { lh.grade_id, lh.id }).ToList();
                 dgvListClass.Columns["grade_id"].Width = 60;
                 dgvListClass.Columns["id"].Width = 60;
 

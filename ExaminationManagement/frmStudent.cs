@@ -13,8 +13,8 @@ namespace ExaminationManagement
 {
     public partial class frmStudent : Form
     {
-        private frmLogin frmLogin;
-        private Student student;
+        //private frmLogin frmLogin;
+        //private Student student;
 
         private void showControlUpadteInfo()
         {
@@ -44,7 +44,7 @@ namespace ExaminationManagement
             txtPass.Hide();
             btnChangePass.Show();
         }
-        public frmStudent(frmLogin frmLogin, Student student)
+        public frmStudent()
         {
             InitializeComponent();
         }

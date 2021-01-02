@@ -56,7 +56,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-
     <Compile Include="frmCreateExam.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,11 +101,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-
     <EmbeddedResource Include="frmCreateExam.resx">
       <DependentUpon>frmCreateExam.cs</DependentUpon>
     </EmbeddedResource>
-
     <Compile Include="QLTTN.cs">
       <DependentUpon>QLTTN.dbml</DependentUpon>
     </Compile>
@@ -115,7 +112,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QLTTN.dbml</DependentUpon>
     </Compile>
-
     <EmbeddedResource Include="frmExam.resx">
       <DependentUpon>frmExam.cs</DependentUpon>
     </EmbeddedResource>
