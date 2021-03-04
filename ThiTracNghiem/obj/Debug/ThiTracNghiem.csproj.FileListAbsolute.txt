@@ -1,0 +1,136 @@
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe.config
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ThiTracNghiem.pdb
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ClosedXML.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\DocumentFormat.OpenXml.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.DataSet.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelNumberFormat.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\FastMember.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Guna.UI2.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\System.IO.Packaging.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\EnvDTE.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\stdole.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.MSXML.dll
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ClosedXML.pdb
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ClosedXML.xml
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\DocumentFormat.OpenXml.xml
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.pdb
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.xml
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.DataSet.pdb
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.DataSet.xml
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelNumberFormat.xml
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.csprojAssemblyReference.cache
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmRegister.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmLogin.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmReportKetQuaKyThi.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmReport.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmReportKyThiResult.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.Form1.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmAdmin.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmGiaoVien.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmHocSinh.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmSplashScreen.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmSuaKT.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmThemKT.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.QuanLyCauHoi.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.Properties.Resources.resources
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.GenerateResource.cache
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.CoreCompileInputs.cache
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.CopyComplete
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe
+D:\1 Hoc tap\HK1 2020-2021\Lap trinh quan ly ung dung 1\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.pdb
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.csprojAssemblyReference.cache
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmRegister.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmLogin.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmReportKetQuaKyThi.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmReport.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmReportKyThiResult.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.Form1.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmAdmin.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmGiaoVien.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmHocSinh.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmSplashScreen.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmSuaKT.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.frmThemKT.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.QuanLyCauHoi.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.Properties.Resources.resources
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.GenerateResource.cache
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.CoreCompileInputs.cache
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.pdb
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe.config
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ThiTracNghiem.pdb
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ClosedXML.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelNumberFormat.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\FastMember.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Guna.UI2.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\System.IO.Packaging.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\EnvDTE.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\stdole.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.MSXML.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ClosedXML.pdb
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ClosedXML.xml
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.pdb
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.xml
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ExcelNumberFormat.xml
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.CopyComplete
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe.config
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\RdlCompile.cache
+C:\Users\HOME\Downloads\18600031_18600052_18600085_18600087\18600031_18600052_18600085_18600087\ThiTracNghiem\obj\Debug\RdlCompile.compiled
