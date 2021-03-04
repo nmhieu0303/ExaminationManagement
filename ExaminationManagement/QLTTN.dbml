@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLTracNghiem" Class="QLTTNDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=HOMEPHO-K8TC9OO;Initial Catalog=QLTracNghiem;Integrated Security=True" SettingsObjectName="ExaminationManagement.Properties.Settings" SettingsPropertyName="QLTracNghiemConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Answer" Member="Answers">
+    <Type Name="Answer">
+      <Column Name="ques_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="content" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="correct" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Question_Answer" Member="Question" ThisKey="ques_id" OtherKey="id" Type="Question" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Grade" Member="Grades">
+    <Type Name="Grade">
+      <Column Name="id" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Grade_Question" Member="Questions" ThisKey="id" OtherKey="grade_id" Type="Question" />
+      <Association Name="Grade_Class" Member="Classes" ThisKey="id" OtherKey="grade_id" Type="Class" />
+      <Association Name="Grade_Paper" Member="Papers" ThisKey="id" OtherKey="grade_id" Type="Paper" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LevelQues" Member="LevelQues">
+    <Type Name="LevelQue">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="LevelQue_Question" Member="Questions" ThisKey="id" OtherKey="level_id" Type="Question" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Question" Member="Questions">
+    <Type Name="Question">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="content" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="level_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sub_id" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="grade_id" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="suggest" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Association Name="Question_Answer" Member="Answers" ThisKey="id" OtherKey="ques_id" Type="Answer" />
+      <Association Name="Grade_Question" Member="Grade" ThisKey="grade_id" OtherKey="id" Type="Grade" IsForeignKey="true" />
+      <Association Name="LevelQue_Question" Member="LevelQue" ThisKey="level_id" OtherKey="id" Type="LevelQue" IsForeignKey="true" />
+      <Association Name="Subject_Question" Member="Subject" ThisKey="sub_id" OtherKey="id" Type="Subject" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Student" Member="Students">
+    <Type Name="Student">
+      <Column Name="id" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="dob" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="grade_id" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="class_id" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Association Name="User_Student" Member="User" ThisKey="id" OtherKey="id" Type="User" IsForeignKey="true" />
+      <Association Name="Class_Student" Member="Class" ThisKey="grade_id,class_id" OtherKey="grade_id,id" Type="Class" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Subject" Member="Subjects">
+    <Type Name="Subject">
+      <Column Name="id" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Subject_Question" Member="Questions" ThisKey="id" OtherKey="sub_id" Type="Question" />
+      <Association Name="Subject_Teacher" Member="Teachers" ThisKey="id" OtherKey="sub_id" Type="Teacher" />
+      <Association Name="Subject_Paper" Member="Papers" ThisKey="id" OtherKey="sub_id" Type="Paper" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="id" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="pass" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="typeUser_id" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="User_Student" Member="Student" ThisKey="id" OtherKey="id" Type="Student" Cardinality="One" />
+      <Association Name="User_Teacher" Member="Teacher" ThisKey="id" OtherKey="id" Type="Teacher" Cardinality="One" />
+      <Association Name="TypeOfUser_User" Member="TypeOfUser" ThisKey="typeUser_id" OtherKey="id" Type="TypeOfUser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TypeOfUser" Member="TypeOfUsers">
+    <Type Name="TypeOfUser">
+      <Column Name="id" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="TypeOfUser_User" Member="Users" ThisKey="id" OtherKey="typeUser_id" Type="User" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Teacher" Member="Teachers">
+    <Type Name="Teacher">
+      <Column Name="id" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="dob" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sub_id" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="Teacher_TeachingDetail" Member="TeachingDetails" ThisKey="id" OtherKey="teacher_id" Type="TeachingDetail" />
+      <Association Name="Teacher_Paper" Member="Papers" ThisKey="id" OtherKey="teacher_id" Type="Paper" />
+      <Association Name="Subject_Teacher" Member="Subject" ThisKey="sub_id" OtherKey="id" Type="Subject" IsForeignKey="true" />
+      <Association Name="User_Teacher" Member="User" ThisKey="id" OtherKey="id" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Class" Member="Classes">
+    <Type Name="Class">
+      <Column Name="grade_id" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="id" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nber_stu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Class_Student" Member="Students" ThisKey="grade_id,id" OtherKey="grade_id,class_id" Type="Student" />
+      <Association Name="Class_TeachingDetail" Member="TeachingDetails" ThisKey="grade_id,id" OtherKey="grade_id,class_id" Type="TeachingDetail" />
+      <Association Name="Grade_Class" Member="Grade" ThisKey="grade_id" OtherKey="id" Type="Grade" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TeachingDetail" Member="TeachingDetails">
+    <Type Name="TeachingDetail">
+      <Column Name="teacher_id" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="grade_id" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="class_id" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Class_TeachingDetail" Member="Class" ThisKey="grade_id,class_id" OtherKey="grade_id,id" Type="Class" IsForeignKey="true" />
+      <Association Name="Teacher_TeachingDetail" Member="Teacher" ThisKey="teacher_id" OtherKey="id" Type="Teacher" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Paper" Member="Papers">
+    <Type Name="Paper">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sub_id" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="grade_id" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="teacher_id" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="papr_name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="doTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="papr_createdAt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Grade_Paper" Member="Grade" ThisKey="grade_id" OtherKey="id" Type="Grade" IsForeignKey="true" />
+      <Association Name="Subject_Paper" Member="Subject" ThisKey="sub_id" OtherKey="id" Type="Subject" IsForeignKey="true" />
+      <Association Name="Teacher_Paper" Member="Teacher" ThisKey="teacher_id" OtherKey="id" Type="Teacher" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
